@@ -10,13 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            const string MyName = "Yaroslav";
-
-            Console.WriteLine("\t Привет Мир");
-            Console.WriteLine("\t Мне 27 лет");
-            Console.WriteLine("\t My name is \n {0}", MyName);
-            Console.WriteLine("\u0040");
-            Console.WriteLine("\u0023");
+            const string myName = "Yaroslav";
+            byte myAge = 27;
+            bool myPet = true;
+            float myShoesSize = 42;
+            Console.WriteLine("Меня зовут " + myName);
+            Console.WriteLine("Мне " + myAge + " лет");
+            Console.WriteLine("Есть ли у меня питомец? " + myPet);
+            Console.WriteLine("Мой размер ноги " + myShoesSize);
             Console.ReadKey();
         }
     }
